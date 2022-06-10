@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Музыкальные инструменты</title>
+ <link href="{% static "css/blog.css" %}" rel="stylesheet">
+</head>
+<body>
+ <div id="content">
+    {% block content %}{% endblock %}
+ </div>
+ <div id="sidebar">
+ <h2>Музыкальне инструменты</h2>
+  <p>Их виды и описание.</p>
+  <p>
+    <img src = "{% static "img/music.jpeg" %}" alt = "music">
+  </p>
+ </div>
+</body>
+</html>
